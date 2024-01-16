@@ -1,0 +1,15 @@
+{
+  "name": "random-fact-generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "sass": "1.69.7",
+    "typescript": "5.2.2",
+    "vite": "5.0.8"
+  }
+}
