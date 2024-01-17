@@ -8,5 +8,15 @@
 
   .fact {
     margin-bottom: 2rem;
+    font-size: 3.5rem;
+
+    @media screen and (max-width: 480px) {
+      font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+    text-align: right;
   }
 }
