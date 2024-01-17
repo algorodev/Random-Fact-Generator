@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Bundle
+node_modules
+dist
+
+# Editor directories and files
+.idea/
+.idea/sonarlint/
+.DS_Store

@@ -1,0 +1,22 @@
+.content {
+  width: 50%;
+  height: calc(100vh - 14rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .fact {
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+
+    @media screen and (max-width: 480px) {
+      font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+    text-align: right;
+  }
+}

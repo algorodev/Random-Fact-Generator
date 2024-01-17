@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Salsa&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Fact Generator</title>
+  </head>
+  <body>
+    <section class="window">
+	    <header class="header">
+				<h4 class="header__title">Random Fact Generator</h4>
+		    <div class="tab">
+			    <button id="daily-button" class="tab__item tab__item--active">
+				    <label for="daily-button">Daily</label>
+			    </button>
+			    <button id="random-button" class="tab__item">
+				    <label for="random-button">Random</label>
+			    </button>
+		    </div>
+	    </header>
+	    <div id="content" class="content"></div>
+    </section>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
