@@ -10,4 +10,5 @@ dist
 
 # Editor directories and files
 .idea/
+.idea/sonarlint/
 .DS_Store

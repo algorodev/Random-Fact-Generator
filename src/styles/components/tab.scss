@@ -1,0 +1,26 @@
+.tab {
+  display: flex;
+
+  &__item {
+    width: 10rem;
+    height: 4rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &--active {
+      background-color: $primary-color;
+      font-weight: bold;
+      pointer-events: none;
+    }
+    
+    & label {
+      cursor: pointer;
+    }
+
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}

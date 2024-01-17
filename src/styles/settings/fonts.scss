@@ -1,0 +1,14 @@
+$title-font: 'Salsa', cursive;
+$text-font: 'Roboto', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title-font;
+  font-size: 4.5rem;
+  color: $white-color;
+}
+
+p, q, span, label, input, select, textarea {
+  font-family: $text-font;
+  font-size: 2rem;
+  color: $white-color;
+}
