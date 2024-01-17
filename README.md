@@ -8,14 +8,13 @@
 - [License](#license)
 
 ## Overview
-Application Preview.
-
 Application that generates random facts or gives you a daily fact.
+![Application](public/assets/preview.png)
 
-Link to demo.
+[Link to demo.](https://rafage.netlify.app/)
 
 ## Features
-- Get random fact
+- Get random facts
 - Get daily fact
 
 ## Tech Stack
@@ -26,7 +25,11 @@ Link to demo.
 - Vitest
 
 ## Local Environment Setup
-Step by step explanation.
+
+1. ```git clone https://github.com/algorodev/Random-Fact-Generator.git```
+2. ```yarn install```
+3. ```yarn run dev```
+4. Open in your default browser this [URL](http://localhost:5173/)
 
 ## Support
 - [PORTFOLIO](https://portfolio-algorodev.netlify.app/)
